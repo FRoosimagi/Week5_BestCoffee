@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.intro-image{
+    background-attachment: fixed;
+    background-image: url("../img/pexels-roman-odintsov-4869280.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-img_link a {
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #7f8d98b6;
+    padding: 2rem;
+    border: 2px solid #7f8d98f8;
+    transition: all 0.5s ease-in-out;
+    color: #282829;
+}
+
+.intro-img_link a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text{
+    height: 250px;
+    background-color: #2a231c;
+    color: #9e8e7d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+.intro-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.origin-image{
+    background-attachment: fixed;
+    background-image: url("../img/beans.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.origin-image_link a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:#dbc0c3;
+    background-color: #634641b7;
+    padding: 2rem;
+    border: 2px solid #57564bd3;
+    transition: all 0.5s ease-in-out;
+}
+.origin-image_link a:hover{
+    transform: scale(1.2);
+}
+.origin-text{
+    height: 250px;
+    background-color: #5c3c37;
+    color: #e09e64;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+.origin-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.Quality-image{
+    background-attachment: fixed;
+    background-image: url("../img/pexels-tima-miroshnichenko-5794164.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quality-image_link a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:#b9ad99;
+    background-color: #57564bd5;
+    padding: 2rem;
+    border: 2px solid #57564bd3;
+    transition: all 0.5s ease-in-out;
+}
+.quality-image_link a:hover{
+    transform: scale(1.2);
+}
+.quality-text{
+    height: 250px;
+    background-color: #1f4d4f;
+    color: #a77040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+.quality-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.footer {
+    height: 250px;
+    background-color:#2b2727;
+    color:#b9ad99;
+    padding-top: 2rem;
+    font-size: 1rem;
+}
+.footer ul li {
+    display: inline-block;
+    margin: 1.5rem;
+}
+.footer ul li a{
+    color:#b9ad99;
+    text-decoration: none;
+}
+.footer ul li:hover {
+    transform: scale(1.5);
+    /*color:#e6dfd5;*/
+}
